@@ -11,14 +11,13 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Menu } from "lucide-react";
 import Link from "next/link";
-import { poppins, DeliciousHandrawn } from "@/assets/font";
-import { ToggleDarkMode } from "./ToggleDarkMode";
+
 const Navbar = () => {
   return (
     <div className=" dark:bg-white-200 ">
       <nav className="container m-auto">
         <div className=" flex items-center justify-between py-2">
-          <Image src="/images.png" alt="Logo" width={187} height={40} />
+          <Image src="/images.png" alt="Logo" width={80} height={80} />
 
           <div className="text-1xl font-semibold items-center gap-4 hidden md:flex scroll-smooth">
             <p>
@@ -34,7 +33,7 @@ const Navbar = () => {
               <Link href="/team">Teams Page</Link>
             </p>
           </div>
-          <ToggleDarkMode />
+         
 
           <DropdownMenu>
             {/* jadi tampilan desktop dibuat block kalo mau di tampilan mobile md:hidden */}
