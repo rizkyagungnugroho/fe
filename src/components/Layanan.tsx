@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Layanan() {
   return (
-    <nav className="  dark:bg-[#8a8a81]">
+    <nav className=" bg-white">
       <div className="font-bold text-center text-2xl py-6  text-gray-600 ">
         Ikuti kelas dan layanan lainnya di toko.
       </div>
