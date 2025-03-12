@@ -3,17 +3,17 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="bg-white-100/80 font-sans dark:bg-gray-900 border border-gray-400 mt-3">
-      <div className="container px-6 py-12 mx-auto">
+      <div className="container px-6 py-12 mx-auto bg-white">
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
           <div className="sm:col-span-2">
             <img src="/images.png" width="130" height="110" alt="" className="" />
             <div className="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row bg-white"></div>
-            <p className="">
+            <p className=" dark:text-gray-300 text-gray-500">
               iBex adalah Apple Premium Reseller terkemuka di Indonesia yang <br />
               mengkhususkan diri dalam produk-produk Apple dan berbagai macam <br />
               aksesoris pelengkap, software dan produk lainnya.
             </p>
-            <p>
+            <p className=" dark:text-gray-300 text-gray-500">
               Jika Anda ingin bantuan atau memiliki masukan, <br />
               silahkan hubungi kami: Jam 09:00 - 18:00 <br />
               Email : customercare@erajaya.com Phone : 1500372 <br />
@@ -25,9 +25,9 @@ const Footer = () => {
             <p className="font-semibold text-gray-800 dark:text-white mt-10">Informasi</p>
 
             <div className="flex flex-col items-start mt-5 space-y-2">
-              <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Tentang Kami</p>
-              <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">FAQ</p>
-              <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Privasi</p>
+              <p className="text-gray-600 transition-colors duration-300 dark:text-gray-500 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Tentang Kami</p>
+              <p className="text-gray-600 transition-colors duration-300 dark:text-gray-500 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">FAQ</p>
+              <p className="text-gray-600 transition-colors duration-300 dark:text-gray-500 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Privasi</p>
             </div>
           </div>
 
@@ -57,7 +57,7 @@ const Footer = () => {
             <img src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg" width="30" height="30" alt="inst" />
           </div>
         </div>
-        <p className="font-sans p-8 text-start md:text-center md:text-lg md:p-4">© 2023 You Company Inc. All rights reserved.</p>
+        
       </div>
     </footer>
   );
