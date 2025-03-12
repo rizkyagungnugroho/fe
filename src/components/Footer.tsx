@@ -8,12 +8,12 @@ const Footer = () => {
           <div className="sm:col-span-2">
             <img src="/images.png" width="130" height="110" alt="" className="" />
             <div className="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row np"></div>
-            <p className=" dark:text-gray-300 text-gray-500">
+            <p className=" dark:text-gray-500 text-gray-600">
               iBex adalah Apple Premium Reseller terkemuka di Indonesia yang <br />
               mengkhususkan diri dalam produk-produk Apple dan berbagai macam <br />
               aksesoris pelengkap, software dan produk lainnya.
             </p>
-            <p className=" dark:text-gray-300 text-gray-500">
+            <p className=" dark:text-gray-500 text-gray-600">
               Jika Anda ingin bantuan atau memiliki masukan, <br />
               silahkan hubungi kami: Jam 09:00 - 18:00 <br />
               Email : customercare@erajaya.com Phone : 1500372 <br />
