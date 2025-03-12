@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-white-100/80 font-sans dark:bg-gray-900 border border-gray-400 mt-3">
+    <footer className="bg-white-100/80 font-sans dark:bg-white border border-gray-400 mt-3">
       <div className="container px-6 py-12 mx-auto bg-white">
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
           <div className="sm:col-span-2">
@@ -35,10 +35,10 @@ const Footer = () => {
             <p className="font-semibold text-gray-800 dark:text-white mt-10">Layanan</p>
 
             <div className="flex flex-col items-start mt-5 space-y-2">
-              <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Cara Pemesanan</p>
-              <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Cara Pembayaran</p>
-              <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Informasi Pengiriman</p>
-              <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Pembatalan Transaksi</p>
+              <p className="text-gray-600 transition-colors duration-300 dark:text-gray-600 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Cara Pemesanan</p>
+              <p className="text-gray-600 transition-colors duration-300 dark:text-gray-600 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Cara Pembayaran</p>
+              <p className="text-gray-600 transition-colors duration-300 dark:text-gray-600 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Informasi Pengiriman</p>
+              <p className="text-gray-600 transition-colors duration-300 dark:text-gray-600 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Pembatalan Transaksi</p>
             </div>
           </div>
         </div>
