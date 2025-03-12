@@ -7,9 +7,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
           <div className="sm:col-span-2">
             <img src="/images.png" width="130" height="110" alt="" className="" />
-            <div className="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row"></div>
+            <div className="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row bg-white"></div>
             <p className="">
-              iBox adalah Apple Premium Reseller terkemuka di Indonesia yang <br />
+              iBex adalah Apple Premium Reseller terkemuka di Indonesia yang <br />
               mengkhususkan diri dalam produk-produk Apple dan berbagai macam <br />
               aksesoris pelengkap, software dan produk lainnya.
             </p>
