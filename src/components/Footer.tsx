@@ -1,63 +1,41 @@
-import React from "react";
+'use client';
+
+import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaPinterestP } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-white-100/80 font-sans dark:bg-white border border-gray-400 mt-3">
-      <div className="container px-6 py-12 mx-auto bg-white">
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
-          <div className="sm:col-span-2">
-            <img src="/images.png" width="130" height="110" alt="" className="" />
-            <div className="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row np"></div>
-            <p className=" dark:text-gray-500 text-gray-600">
-              iBex adalah Apple Premium Reseller terkemuka di Indonesia yang <br />
-              mengkhususkan diri dalam produk-produk Apple dan berbagai macam <br />
-              aksesoris pelengkap, software dan produk lainnya.
-            </p>
-            <p className=" dark:text-gray-500 text-gray-600">
-              Jika Anda ingin bantuan atau memiliki masukan, <br />
-              silahkan hubungi kami: Jam 09:00 - 18:00 <br />
-              Email : customercare@erajaya.com Phone : 1500372 <br />
-              WA : 0812 9077 7722
-            </p>
-          </div>
+    <footer className="bg-gradient-to-b from-[#e8461b] to-[#dd3c0f] text-white py-12 text-center">
+      <div className="max-w-2xl mx-auto px-4">
+        <h2 className="text-3xl font-bold mb-2">Your Event Connection</h2>
+        <p className="mb-6 text-sm">Join our list for exclusive event updates and insider tips.</p>
 
-          <div>
-            <p className="font-semibold text-gray-800 dark:text-white mt-10">Informasi</p>
+        <form className="flex items-center justify-center gap-2 flex-wrap mb-6">
+          <input
+            type="email"
+            placeholder="Your email address"
+            className="px-4 py-3 rounded-full w-72 max-w-full text-black outline-none"
+          />
+          <button
+            type="submit"
+            className="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800 transition"
+          >
+            JOIN
+          </button>
+        </form>
 
-            <div className="flex flex-col items-start mt-5 space-y-2">
-              <p className="text-gray-600 transition-colors duration-300 dark:text-gray-500 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Tentang Kami</p>
-              <p className="text-gray-600 transition-colors duration-300 dark:text-gray-500 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">FAQ</p>
-              <p className="text-gray-600 transition-colors duration-300 dark:text-gray-500 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Privasi</p>
-            </div>
-          </div>
-
-          <div>
-            <p className="font-semibold text-gray-800 dark:text-white mt-10">Layanan</p>
-
-            <div className="flex flex-col items-start mt-5 space-y-2">
-              <p className="text-gray-600 transition-colors duration-300 dark:text-gray-600 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Cara Pemesanan</p>
-              <p className="text-gray-600 transition-colors duration-300 dark:text-gray-600 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Cara Pembayaran</p>
-              <p className="text-gray-600 transition-colors duration-300 dark:text-gray-600 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Informasi Pengiriman</p>
-              <p className="text-gray-600 transition-colors duration-300 dark:text-gray-600 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Pembatalan Transaksi</p>
-            </div>
-          </div>
+        <div className="flex justify-center gap-6 text-xl mb-6">
+          <FaFacebookF />
+          <FaTwitter />
+          <FaInstagram />
+          <FaYoutube />
+          <FaPinterestP />
         </div>
 
-        <hr className="my-6 border-gray-200 md:my-8 dark:border-gray-700 h-2" />
+        <hr className="border-white/30 mb-4" />
 
-        <div className="sm:flex sm:items-center sm:justify-between">
-          <div className="flex flex-1 gap-4 hover:cursor-pointer">
-            <img src="https://www.svgrepo.com/show/303139/google-play-badge-logo.svg" width="130" height="110" alt="" />
-            <img src="https://www.svgrepo.com/show/303128/download-on-the-app-store-apple-logo.svg" width="130" height="110" alt="" />
-          </div>
-
-          <div className="flex gap-4 hover:cursor-pointer">
-            <img src="https://www.svgrepo.com/show/303114/facebook-3-logo.svg" width="30" height="30" alt="fb" />
-            <img src="https://www.svgrepo.com/show/303115/twitter-3-logo.svg" width="30" height="30" alt="tw" />
-            <img src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg" width="30" height="30" alt="inst" />
-          </div>
-        </div>
-        
+        <p className="text-xs text-white/80">
+          Copyright © {new Date().getFullYear()}. All rights reserved.
+        </p>
       </div>
     </footer>
   );
